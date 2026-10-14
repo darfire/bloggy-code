@@ -5,3 +5,9 @@ __pycache__/
 target/
 *.class
 .DS_Store
+matrix-cache-aliasing/aliasing
+matmul-cache-aliasing/matmul
+icache-pipeline/pipeline_fused
+icache-pipeline/pipeline_staged
+icache-pipeline/ops.c
+icache-pipeline/ops.h
