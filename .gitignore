@@ -11,6 +11,18 @@ icache-pipeline/pipeline_fused
 icache-pipeline/pipeline_staged
 icache-pipeline/ops.c
 icache-pipeline/ops.h
+branch-prediction/dispatch
+branch-hints/hints_none
+branch-hints/hints_right
+branch-hints/hints_wrong
+accumulators/sum_scalar
+accumulators/sum_o2
+accumulators/sum_fastmath
+accumulators/sum_fastmath_unroll
+hyperthreading/smt
+pingpong/pingpong
+helper-thread/helper
+work-queue/queue
 pgo-dispatch/vm_base
 pgo-dispatch/vm_instr
 pgo-dispatch/vm_pgo_*
@@ -22,6 +34,8 @@ pgo-dispatch/*.profraw
 pgo-dispatch/*.profdata
 pgo-dispatch/*.fdata
 pgo-dispatch/*.perf.data*
+bolt-cpython/src/
+bolt-cpython/build/
 bolt-sqlite/src/
 bolt-sqlite/st_base
 bolt-sqlite/st_instr
